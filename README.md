@@ -11,7 +11,7 @@
   
 ## Demo 
 
-![Gif](assets/gifs/search,gif)
+![Gif](assets/gifs/search.gif)
 ![Gif](assets/gifs/ysearch.gif)
 ![Gif](assets/gifs/comands.gif)
 ![Gif](assets/gifs/atalhos.gif)  
