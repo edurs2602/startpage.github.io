@@ -17,23 +17,26 @@
 ![Gif](assets/gifs/atalhos.gif)  
 
 ## Comands:
-*  ### m = Gmail
-*  ### dr = Google Drive
-*  ### dc = Discord
-*  ### r = Reddit
-*  ### tr = Google Translate
-*  ### g = Github
-*  ### so = StackOverflow
-*  ### hn = HackerNews
-*  ### md = MDN
-*  ### dd = DevDocs
-*  ### y = Youtube
-*  ### y: = Search in youtube
-*  ### n = Netflix
-*  ### s = Spotify
-*  ### tw = Twitch
-*  ### t = twitter
-*  ### i = Instagram
-*  ### l = Linkedin
-*  ### tg = Telegram
-*  ### w = Whatsapp web
+*  #### m = Gmail
+*  #### dr = Google Drive
+*  #### dc = Discord
+*  #### r = Reddit
+*  #### tr = Google Translate
+*  #### g = Github
+*  #### so = StackOverflow
+*  #### hn = HackerNews
+*  #### md = MDN
+*  #### dd = DevDocs
+*  #### y = Youtube
+*  #### y: = Search in youtube
+*  #### n = Netflix
+*  #### s = Spotify
+*  #### tw = Twitch
+*  #### t = twitter
+*  #### i = Instagram
+*  #### l = Linkedin
+*  #### tg = Telegram
+*  #### w = Whatsapp web
+
+  
+Based on [Tilde Enhanced](https://github.com/Ozencb/tilde-enhanced)
