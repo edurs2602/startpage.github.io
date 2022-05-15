@@ -11,10 +11,10 @@
   
 ## Demo 
 
-![Gif](assets/gifs/search)
-![Gif](assets/gifs/ysearch)
-![Gif](assets/gifs/comands)
-![Gif](assets/gifs/atalhos)  
+![Gif](assets/gifs/search,gif)
+![Gif](assets/gifs/ysearch.gif)
+![Gif](assets/gifs/comands.gif)
+![Gif](assets/gifs/atalhos.gif)  
 
 ## Comands:
   ### m = Gmail
