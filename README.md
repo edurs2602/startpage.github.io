@@ -8,6 +8,13 @@
 
 ![Screenshot](assets/screenshot1.png)
 ![Screenshot](assets/screenshot2.png)
+  
+## Demo 
+
+![Gif](assets/gifs/search)
+![Gif](assets/gifs/ysearch)
+![Gif](assets/gifs/comands)
+![Gif](assets/gifs/atalhos)  
 
 ## Comands:
   ### m = Gmail
