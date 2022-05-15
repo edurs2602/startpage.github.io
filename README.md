@@ -38,5 +38,6 @@
 *  #### tg = Telegram
 *  #### w = Whatsapp web
 
+</table>
   
 Based on [Tilde Enhanced](https://github.com/Ozencb/tilde-enhanced)
