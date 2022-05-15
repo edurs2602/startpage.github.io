@@ -6,7 +6,7 @@
 
 ## Screenshots 
 
-![Screenshot](assets/screenshot1.png)
+![Screenshot](assets/screenshot1.png height="150" width="150")
 ![Screenshot](assets/screenshot2.png)
   
 ## Demo 
