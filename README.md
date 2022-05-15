@@ -1,6 +1,6 @@
 <table align="center"><tr><td align="center" width="9999">
 
-# Yet Another Startpage
+# A Web Startpage
 
 *A minimal startpage for browser*
 
