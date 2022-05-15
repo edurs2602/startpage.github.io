@@ -16,6 +16,8 @@
 ![Gif](assets/gifs/comands.gif)
 ![Gif](assets/gifs/atalhos.gif)  
 
+</table>  
+  
 ## Comands:
 *  #### m = Gmail
 *  #### dr = Google Drive
@@ -38,6 +40,5 @@
 *  #### tg = Telegram
 *  #### w = Whatsapp web
 
-</table>
   
 Based on [Tilde Enhanced](https://github.com/Ozencb/tilde-enhanced)
