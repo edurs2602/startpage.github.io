@@ -16,9 +16,10 @@
 ![Gif](assets/gifs/comands.gif)
 ![Gif](assets/gifs/atalhos.gif)  
 
+## Comands:  
+  
 </table>  
   
-## Comands:
 *  #### m = Gmail
 *  #### dr = Google Drive
 *  #### dc = Discord
