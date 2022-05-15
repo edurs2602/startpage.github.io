@@ -6,11 +6,12 @@ const CONFIG = {
    * Commands without a category don't show up in the help menu.
    * Update line 11 and 13 if you prefer using Google.
    */
-  commands: [{
+  commands: [
+    {
       name: 'Duckduckgo',
       key: '*',
       url: 'https://duckduckgo.com',
-      search: '/?q={}'
+      search: '/?q={}',
     },
     {
       category: 'General',
@@ -25,7 +26,7 @@ const CONFIG = {
     {
       category: 'General',
       name: 'Drive',
-      key: 'd',
+      key: 'dr',
       url: 'https://drive.google.com',
       search: '/drive/search?q={}',
       color: 'linear-gradient(135deg, #FFD04B, #1EA362, #4688F3)',
@@ -34,29 +35,31 @@ const CONFIG = {
     },
     {
       category: 'General',
-      name: 'Telegram',
-      key: 'tg',
-      url: 'https://web.telegram.org',
-      color: '#5682a3',
-      icon: 'telegram',
-      quickLaunch: false,
-    },
-    {
-      category: 'General',
-      name: 'WhatsApp',
-      key: 'w',
-      url: 'https://web.whatsapp.com',
-      color: 'linear-gradient(135deg, #25D366, #128C7E, #075E54)',
-      icon: 'whatsapp',
-      quickLaunch: false,
-    },
-    {
-      category: 'General',
       name: 'Discord',
       key: 'dc',
       url: 'https://discord.com/app',
-      color: '#7289da',
+      color: 'linear-gradient(135deg, #4169E1, #0000FF)',
       icon: 'discord',
+      quickLaunch: false,
+    },
+    {
+      category: 'General',
+      name: 'Reddit',
+      key: 'r',
+      url: 'https://reddit.com',
+      search: '/search?q={}',
+      color: 'linear-gradient(135deg, #FF8456, #FF4500)',
+      icon: 'reddit',
+      quickLaunch: false,
+    },
+    {
+      category: 'General',
+      name: 'Translate',
+      key: 'tr',
+      url: 'https://translate.google.com/',
+      search: '/#view=home&op=translate&sl=auto&tl=en&text={}',
+      color: '#1a73e8',
+      icon: 'translate',
       quickLaunch: false,
     },
 
@@ -74,7 +77,7 @@ const CONFIG = {
     {
       category: 'Programming',
       name: 'StackOverflow',
-      key: 'st',
+      key: 'so',
       url: 'https://stackoverflow.com',
       search: '/search?q={}',
       color: 'linear-gradient(135deg, #53341C, #F48024)',
@@ -84,7 +87,7 @@ const CONFIG = {
     {
       category: 'Programming',
       name: 'HackerNews',
-      key: 'h',
+      key: 'hn',
       url: 'https://news.ycombinator.com/',
       search: '/search?stories[query]={}',
       color: 'linear-gradient(135deg, #FF6600, #DC5901)',
@@ -124,21 +127,20 @@ const CONFIG = {
     },
     {
       category: 'Fun',
-      name: 'Reddit',
-      key: 'r',
-      url: 'https://reddit.com',
-      search: '/search?q={}',
-      color: 'linear-gradient(135deg, #FF8456, #FF4500)',
-      icon: 'reddit',
-      quickLaunch: false,
-    },
-    {
-      category: 'Fun',
       name: 'Netflix',
       key: 'n',
       url: 'https://www.netflix.com',
       color: 'linear-gradient(135deg, #E50914, #CB020C)',
       icon: 'netflix',
+      quickLaunch: false,
+    },
+    {
+      category: 'Fun',
+      name: 'HBO Max',
+      key: 'hbo',
+      url: 'https://play.hbomax.com',
+      color: 'linear-gradient(135deg, #9932CC, #4B0082, #6495ED)',
+      icon: 'hbo',
       quickLaunch: false,
     },
     {
@@ -178,7 +180,7 @@ const CONFIG = {
       name: 'Instagram',
       key: 'i',
       url: 'https://www.instagram.com',
-      color: 'linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d)',
+      color: 'linear-gradient(200deg, #6495ED, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d)',
       icon: 'instagram',
       quickLaunch: true,
     },
@@ -194,21 +196,20 @@ const CONFIG = {
     },
     {
       category: 'Other',
-      name: 'Notion',
-      key: 'ns',
-      url: 'https://www.notion.so',
-      color: 'linear-gradient(135deg, #FFF, #3F3F3F)',
-      icon: 'notion',
-      quickLaunch: true,
+      name: 'Telegram',
+      key: 'tg',
+      url: 'https://web.telegram.org',
+      color: '#5682a3',
+      icon: 'telegram',
+      quickLaunch: false,
     },
     {
       category: 'Other',
-      name: 'Translate',
-      key: 'tr',
-      url: 'https://translate.google.com/',
-      search: '/#view=home&op=translate&sl=auto&tl=en&text={}',
-      color: '#1a73e8',
-      icon: 'translate',
+      name: 'WhatsApp',
+      key: 'w',
+      url: 'https://web.whatsapp.com',
+      color: 'linear-gradient(135deg, #25D366, #128C7E, #075E54)',
+      icon: 'whatsapp',
       quickLaunch: false,
     },
   ],
@@ -295,7 +296,7 @@ const CONFIG = {
   /**
    * The delimiter between the hours and minutes on the clock.
    */
-  clockDelimiter: ' ',
+  clockDelimiter: ':',
 
   /**
    * Show a twenty-four-hour clock instead of a twelve-hour clock with AM/PM.
